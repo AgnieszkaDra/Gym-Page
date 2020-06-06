@@ -67,6 +67,7 @@ const changeSlide = () => {
     changeDot();
 }
 
+
 // const changeReverseSlide = () => {
 //     active--;
 //     if (active < 0) {

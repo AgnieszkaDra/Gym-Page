@@ -341,3 +341,55 @@ div.map {
     border: 2px solid #E0610A;
 
 }
+
+/*================================================================= SUBPAGE OFFER =================================================================*/
+/* section.price {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+section.price div{
+    flex-basis: 10%;
+    background-color: #f39200;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+section.price div h3{
+    font-size: 1.2rem;
+    line-height: 4rem;
+    text-align: center;
+
+} */
+
+table.pricelist{
+    position: relative;
+    left: 25%;
+    margin-top: 2rem;
+    transform: translateX(-50%);
+    width: 40%;
+    
+}
+table.pricelist th{
+    background-color: #E0610A;
+    padding: 10px 0;
+}
+table.pricelist td{
+    background-color: #f39200;
+    padding: 7px 10px 10px 10px;
+    font-weight: bold;}
+td.price {
+    text-align: end;
+}
+table.pricelist td:hover {
+    background-color: #f3aa00;
+}
+p.star {
+    color: #ffffff;
+    margin-left: 6%;
+}
+    

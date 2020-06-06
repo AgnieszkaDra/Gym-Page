@@ -24,6 +24,9 @@ div.navlogo {
     justify-content: space-around;
 
 }
+div.navlogo img {
+    margin-top: 2rem;
+}
 nav {
     flex-basis: 60%;   
 }
@@ -66,7 +69,7 @@ section.second {
 
 section.second div.dots {
     position: absolute;
-    top: 79%;
+    top: 74%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -324,6 +327,14 @@ div.txt {
 div.txt p{
     font-size: 1.7rem;
 
+}
+div.txt p i{
+    margin-right: 2rem;
+}
+
+div.txt p a {
+    text-decoration: none;
+    color: #f39200;
 }
 div.map {
     flex-basis: 30%;

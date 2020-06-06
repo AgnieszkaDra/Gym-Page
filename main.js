@@ -58,11 +58,6 @@ const activeDot = dots.findIndex(dot => dot.classList.contains('act'));
 dots[activeDot].classList.remove('act');
 dots[active].classList.add('act');
 };
-
-
-
-
-
 const changeSlide = () => {
     active++;
     if (active == slideList.length) {

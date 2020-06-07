@@ -370,7 +370,7 @@ section.price div h3{
 table.pricelist{
     position: relative;
     left: 25%;
-    margin-top: 2rem;
+    margin-top: 5rem;
     transform: translateX(-50%);
     width: 40%;
     
@@ -392,5 +392,20 @@ table.pricelist td:hover {
 p.star {
     color: #ffffff;
     margin-left: 6%;
+}
+
+ul.options {
+    margin-top: 2rem;
+    margin-left: 6.7rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+ul.options li{
+    list-style-type: circle;
+    color: white;
+    line-height: 2rem;
 }
     

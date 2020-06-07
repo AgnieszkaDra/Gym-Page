@@ -10,6 +10,7 @@ body {
 }
 /* Container */
 div.wrapper {
+   
     background-color: #1d1d1b;
     width: 98%;
     height: 125vh;
@@ -63,13 +64,13 @@ li.nav a:hover {
 
 section.second {
     margin: 2rem auto;
-    height: 49%;
+    height: 40%;
     width: 80%;
 }
 
 section.second div.dots {
     position: absolute;
-    top: 74%;
+    top: 75%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -115,8 +116,8 @@ section.second img {
     margin-top: 0;
     /* width: 1032px;
     height: 480px; */
-    width: 1100px;
-    height: 480px;
+    width: 70%;
+    height: 50%;
     border: 2px solid #E0610A;
 }
 /* img.one {
@@ -278,6 +279,7 @@ footer {
 footer p {
     font-weight: bold;
     color: #ffffff;
+    font-size: 0.8rem;
 }
 footer p a {
     text-decoration: none;
@@ -408,4 +410,59 @@ ul.options li{
     color: white;
     line-height: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+/*============================================================================== MEDIA Queries =======================================================*/
+
+
+@media (min-height: 1050px) {
+    section.second div.dots {top: 72%;}       
+}
+
+@media (max-height: 850px){
     
+    section.third h2{font-size: 1.4rem;} 
+    div.arrow i {font-size: 2rem;}
+    li.bonus1 {font-size: 1rem;}
+    section.second div.dots {top: 80%;} 
+    section.socialmedia a#facebook a#instagram {font-size: 3rem;}
+}
+
+@media (max-width: 1680px) {
+    ul li.nav a {font-size: 1.6rem;}
+    section.socialmedia a#facebook {font-size: 2.6rem;}
+    section.socialmedia a#instagram {font-size: 2.6rem;}
+}
+@media (max-width: 1440px){
+    ul li.nav a {font-size: 1.4rem;}
+    section.third h2{font-size: 2rem;}
+    div.arrow i {font-size: 1.8rem;}
+    section.socialmedia a#facebook {font-size: 2.6rem;}
+    section.socialmedia a#instagram {font-size: 2.6rem;}
+        
+}
+@media (max-height: 768px) {
+    section.third h2{font-size: 1.2rem;} 
+    section.second div.dots {top: 82%;} 
+    div.arrow i {font-size: 1.8rem;}
+    li.bonus1 {font-size: 0.9rem;}
+    footer{ height: 1%;}
+    div.wrapper {height: 126vh;}
+    footer p {font-size: 0.7rem;}
+}
+@media (max-width: 1280px) {
+    div.bonus.active {width: 60%;}
+    li.bonus1 {font-size: 0.9rem; line-height: 1.5rem;}
+    section.socialmedia a#facebook {font-size: 2.3rem;}
+    section.socialmedia a#instagram {font-size: 2.3rem;}
+    
+        
+}

@@ -13,7 +13,7 @@ div.wrapper {
    
     background-color: #1d1d1b;
     width: 98%;
-    height: 125vh;
+    height: 155vh;
     margin: 1% 1% 1% 1%; 
 }
 
@@ -23,6 +23,7 @@ div.navlogo {
     background-color: #1d1d1b;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: nowrap;
 
 }
 div.navlogo img {
@@ -63,9 +64,10 @@ li.nav a:hover {
 /* Second Section */
 
 section.second {
-    margin: 2rem auto;
-    height: 40%;
-    width: 80%;
+    position: relative;
+    margin: 2rem auto 0 auto; 
+    height: 50%;
+    width: 100%;
 }
 
 section.second div.dots {
@@ -117,7 +119,7 @@ section.second img {
     /* width: 1032px;
     height: 480px; */
     width: 70%;
-    height: 50%;
+    height: 80%;
     border: 2px solid #E0610A;
 }
 /* img.one {
@@ -198,7 +200,7 @@ img.six {
 /* Third Section  */
 
 section.third {
-    margin-top: 2%;
+    /* margin-top: 2%; */
     text-align: center;
     height: 50px;
 }
@@ -269,10 +271,10 @@ section.socialmedia a#instagram {
 footer {
     display: flex;
     position: absolute;
-    bottom: -30vh;
+    bottom: -60vh;
     right: 0;
     width: 100%;
-    height: 3%; 
+    height: 2rem; 
     justify-content: space-around;
     align-items: center;    
 }
@@ -422,7 +424,10 @@ ul.options li{
 
 /*============================================================================== MEDIA Queries =======================================================*/
 
-
+@media (min-height: 1200px) {
+    section.second div.dots {top: 60%;}       
+ 
+}
 @media (min-height: 1050px) {
     section.second div.dots {top: 72%;}       
 }
@@ -434,12 +439,18 @@ ul.options li{
     li.bonus1 {font-size: 1rem;}
     section.second div.dots {top: 80%;} 
     section.socialmedia a#facebook a#instagram {font-size: 3rem;}
-}
+    section.second img {height: 90%}
+    
 
 @media (max-width: 1680px) {
     ul li.nav a {font-size: 1.6rem;}
     section.socialmedia a#facebook {font-size: 2.6rem;}
     section.socialmedia a#instagram {font-size: 2.6rem;}
+    div.bonus.active {width: 50%;}
+    section.second img {width: 80%}
+
+        
+        
 }
 @media (max-width: 1440px){
     ul li.nav a {font-size: 1.4rem;}
@@ -447,6 +458,9 @@ ul.options li{
     div.arrow i {font-size: 1.8rem;}
     section.socialmedia a#facebook {font-size: 2.6rem;}
     section.socialmedia a#instagram {font-size: 2.6rem;}
+    div.bonus.active {width: 50%;}
+    div.bonus.active {width: 55%;}
+        
         
 }
 @media (max-height: 768px) {
@@ -454,15 +468,14 @@ ul.options li{
     section.second div.dots {top: 82%;} 
     div.arrow i {font-size: 1.8rem;}
     li.bonus1 {font-size: 0.9rem;}
-    footer{ height: 1%;}
-    div.wrapper {height: 126vh;}
+    div.wrapper {height: 155vh;}
     footer p {font-size: 0.7rem;}
 }
 @media (max-width: 1280px) {
-    div.bonus.active {width: 60%;}
+    div.bonus.active {width: 50%;}
     li.bonus1 {font-size: 0.9rem; line-height: 1.5rem;}
     section.socialmedia a#facebook {font-size: 2.3rem;}
     section.socialmedia a#instagram {font-size: 2.3rem;}
-    
-        
+    section.second img {width: 90%;}}
 }
+

@@ -477,5 +477,29 @@ ul.options li{
     section.socialmedia a#facebook {font-size: 2.3rem;}
     section.socialmedia a#instagram {font-size: 2.3rem;}
     section.second img {width: 90%;}}
+    ul li.nav a {font-size: 1.1rem;}
 }
+
+@media (max-width: 575.98px) {
+    div.navlogo {flex-wrap: wrap;}
+    nav {flex-basis: 100%;}
+    ul {flex-direction: column; justify-content: center; align-items: center;}
+    ul li.nav {margin-top: 1rem; width: 90%;background-color: #E0610A; text-align: center;} 
+    section.socialmedia a#facebook {font-size: 1.5rem; color: white}
+    section.socialmedia a#instagram {font-size: 1.5rem; color: white;}
+    ul li.nav a {color: #1d1d1b; }
+    section.second {height: 28%;}
+    .dots span {width: 5px; height: 5px; margin: 0 1rem}
+    div.arrow i {font-size: 1.5rem;}
+    li.bonus1 {font-size: 0.7rem; line-height: 1rem;}
+    div.bonus.active {width: 80%;}
+    footer p {font-size: 0.5rem;}
+
+
+    }
+
+
+
+
+
 

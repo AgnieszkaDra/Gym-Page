@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #1d1d1b;
+}
+
+
+
+/* NAVBAR */
+
+ a.navbar-brand{
+    color: #e0610a;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+a.nav-link {
+    color: #1d1d1b;
+}
+
+button i.fa-bars{
+    font-size: 2rem;
+    color: #1d1d1b;
+    padding: 1rem 2rem;
+
+}
+
+
+/* Section about us */
+.about-box p i {
+    color: #e0610a;
+    
+}

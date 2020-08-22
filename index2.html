@@ -13,7 +13,7 @@
 <body>
 
     
-        <nav class="navbar navbar-expand-lg bg-light py-2">
+        <nav class="navbar navbar-expand-lg bg-transparent py-2">
           <div class="container">
             <a class="navbar-brand text-uppercase" href="#"><img src="images/logo_kontra_7.png" width="30" height="30" class="d-inline-block align-top mr-3" alt="" loading="lazy">Przystań GYM</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +22,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-light text-light" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3" href="#">O nas</a>
+                  <a class="nav-link px-3 text-light" href="#">O nas</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link px-3" href="#">Treningi</a>
@@ -37,10 +37,10 @@
                     <a class="nav-link px-3" href="#">Galeria</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="#">Dokumenty</a>
+                    <a class="nav-link px-3 text-light" href="#">Dokumenty</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="#">Kontakt</a>
+                    <a class="nav-link px-3 text-light" href="#">Kontakt</a>
                   </li>
               </ul>
             </div>
@@ -106,31 +106,190 @@
 
         <main>
           <section id="aboutus">
-            <div class="container py-5 bg-light">
+            <div class="container py-5">
               <div class="row">
-                <div class="col-12 col-lg-4 bg-light text-dark">
-                  <div class="about-box text-center m-3 p-4 border">
+                <div class="col-12 col-md-6 col-lg-3 text-dark">
+                  <div class="about-box text-center m-3 p-4 p-lg-5 border bg-light">
                     <h3>Treningi</h3>
                     <p><i class="fas fa-dumbbell"></i></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="about-box-info">Treningi personalne, konsultacje online, dietetyka, plany treningowe</p>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 bg-light text-dark">
-                  <div class="about-box text-center m-3 p-4 bg-dark text-light">
+                <div class="col-12 col-md-6 col-lg-3 text-light">
+                  <div class="about-box text-center m-3 p-4 p-lg-5 border">
                     <h3>Oferta</h3>
                     <p><i class="fas fa-handshake"></i></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="about-box-info">Kompleksowa podejście do klienta w zakresie treningów personalnych</p>
                 </div>
                 </div>
-                <div class="col-12 col-lg-4 bg-light text-dark">
-                  <div class="about-box text-center m-3 p-4 border">
+                <div class="col-12 col-md-6 col-lg-3  text-dark">
+                  <div class="about-box text-center m-3 p-4 p-lg-5 border bg-light">
                     <h3>Galeria</h3>
                     <p><i class="fas fa-camera-retro"></i></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="about-box-info">Kameralne studio treningowe na terenie Yacht Club Kraków</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3  text-light">
+                  <div class="about-box text-center m-3 p-4 p-lg-5 border">
+                    <h3>Trenerzy</h3>
+                    <p><i class="fas fa-users"></i></p>
+                    <p class="about-box-info">Profesjonalna i doświadczona kadra trenerska</p>
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="container py-5 text-center">
+                <p class="display-4">Dlaczego warto?</p>
+                <hr class="bg-warning w-50 mx-auto">
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center text-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <p class="btn">Dlaczego warto nam zaufać?</p>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <p class="text-left"><strong>Przystań Gym</strong> to kompleksowe podejście do klienta. Oferujemy pojedyncze <strong>treningi personalne</strong>, prowadzenie miesięczne pod względem treningowym z wybraną przez podopiecznego częstotliwością oraz ustalonym celem. Przygotowujemy <strong>plany treningowe oraz wspieramy dietetycznie</strong>. Prowadzimy także klientów <strong>on-line</strong>. W naszym zespole znajduje się również dietetyk oraz fizjoterapeuta.</p>
+                        <br>
+                        <br>
+                        <p class="text-left">PROWADZENIE ON-LINE</p>
+                          <p class="text-left">WYWIAD + PLAN TRENINGOWY ORAZ DIETETYCZNY + KONSULTACJE ONLINE</p>
+                          <p class="text-left">Współpraca opiera się o szczegółowy wywiad z klientem co do celów i możliwości. Następnie wdrażany jest plan dietetyczny i treningowy. Trenujący otrzymuję wszystkie niezbędne narzędzia, druki i formularze. Raz w tygodniu klient wysyła zbiorczą wiadomość dotyczącą postępów oraz pytań. Co tygodniowe konsultacje obejmują również analizę video techniki wykonywania ćwiczeń.</p>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <p class="btn">Czym jest trening personalny?</p>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <p class="text-justify"><strong>Wszystko zaczyna się od pomysłu.</strong> Chce zacząć ćwiczyć na siłowni!! Może na ten szalony koncept naprowadziła mnie motywacja wewnętrzna (oby), może kolega lub koleżanka, a może po prostu moda na bycie fit i przeglądanie portali społecznościowych.
+                        <br>
+                        <br>
+                        <strong>Tylko co dalej?</strong> Kupie karnet na jedną z lokalnych siłowni, ale co ja tam będę robić?. Mnóstwo ludzi jeszcze więcej dziwnego sprzętu wyglądającego jak maszyny tortur. To chyba jednak nie dla mnie.....<br>Każdy początkujący zmaga się z takimi problemami. Jedni rezygnują po jednej wizycie, inni marnują miesiące na błądzeniu w metodach i środkach treningowych, kolejni kończą godzinami wykonując trening cardio na bieżniach czy rowerkach stacjonarnych. Jest też grupa zapaleńców, którzy całymi dniami wertują internet aby dowiedzieć się jak ćwiczyć. Jednak poświęcają na to więcej czasu niż na trening.<br>
+                        Niestety czasem taki źle dobrany trening kończy się dużą opóźnioną bolesnością mięśniową (DOMS) czy nawet kontuzją. Stracony czas, ból czy nawet konieczność rehabilitacji nie są dobrymi motywatorami do kontynuowania treningu. I tu wracamy do początku i do stwierdzenia „to jednak nie dla mnie”. Trening na siłowni pewnie jest zarezerwowany tylko dla młodych, sprawnych, szczupłych ale umięśnionych ludzi. Właśnie NIE. Oni się tacy nie urodzili. Każda osoba w każdym wieku może zacząć swoją przygodę z treningiem siłowy, który jest najlepszą formą aktywności do budowania zdrowej sylwetki.
+                        <strong>Żeby nie popełnić błędów </strong> opisanych powyżej i nie zniechęcić się na starcie najlepszą opcją rozpoczęcia swojej przygody z treningiem siłowym jest podjęcie współpracy z trenerem personalnym. <strong>Jakie korzyści możemy z tego uzyskać:</strong></p>
+                        <ul>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>diagnostyka układu ruchu, </li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>praca nad ewentualnymi wadami postawy co pomoże uniknąć kontuzji,	</li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>indywidualny plan treningowy dostosowany do naszych celów i możliwości,</li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>analityczna nauka ćwiczeń aż do wyrobienia nawyku ruchowego,</li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>stała kontrola nad wykonywaniem ćwiczeń, korekta błędów, wprowadzanie ćwiczeń pomocniczych,</li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>pilnowanie najważniejszych zmiennych treningowych (częstotliwości, intensywności, częstotliwości,</li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>poznawanie swojego układu ruchu i wyrabianie umiejętności jego kontroli i świadomości,</li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>wyrabianie nawyku zdrowego odżywania,</li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>razie konieczności skierowanie na konsultację z dietetykiem lub fizjoterapeutą,</li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>stałe motywowanie do ćwiczeń i regularnej pracy nad sobą,</li>
+                        </ul>
+                        <p class="text-justify">Tak to wszystko robi za Ciebie lub dla Ciebie trener personalny. Tobie pozostaje tylko mu zaufać i cierpliwie realizować plan który z każdą jednostką treningową i z każdym dniem przybliży Cię do wymarzonego celu. W Przystań Gym dodatkowo wykonasz to w  swobodnej atmosferze bez krępujących spojrzeń czy porównań innych ćwiczących co może przeszkadzać na większych czy sieciowych siłowniach. Jesteś tu sam na sam z trenerem, który swoją uwagę poświęca tylko Tobie. Jesteś tu aby nauczyć się ćwiczeń, wyrobić poprawne nawyki ruchowe aby w przyszłości móc już ćwiczyć samodzielnie. Aby sport był dla Ciebie maratonem do końca życia a nie tylko sprintem, żeby zdążyć „coś ze sobą zrobić do wakacji”.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <p class="btn">Trenerzy</p>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <img src="images/coach1.png" class="rounded float-left coaches pr-3" alt="...">
+                        <p class="text-justify"><strong>Paweł Miklasiński</strong> – założyciel oraz główny trener w Przystań Gym. Absolwent Uniwersytetu Pedagogicznego w Krakowie, mgr wychowania fizycznego i obronnego. Od najmłodszych lat związany ze sportem jako zawodnik oraz trener grup młodzieżowych. Kwalifikowany trener personalny i instruktor sportów siłowych od 2012 roku. Uczestnik wielu konferencji i szkoleń odnośnie dietetyki, treningu oraz przygotowania motorycznego. Między innymi: Szkoła Treningowa Mistrza Furmanka – mięśnie grzbietu i barków, Wyższa Szkoła Tenerska – suplementacja i dietetyka w sporcie, Centrum Szkoleń Sportowych – programowanie treningowe, A4cademy – dietetyka i dietoterapia. Główne założenie swojej pracy to zarażać pasją do aktywności fizycznej, która powinna towarzyszyć człowiekowi przez całe życie.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <p class="btn">Cennik</p>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <table class="pricelist">
+                          <tr>
+                              <th>RODZAJ USŁUGI</th>
+                              <th class="text-justify px-5">CENA</th>
+                          </tr>
+                          
+                          <tr>
+                              <td>Pojedynczy trening personalny</td>
+                              <td class="price text-justify px-5">100zł</td>
+                          </tr>
+                          <tr>
+                              <td>Pojedynczy trening personalny dla 2 osób</td>
+                              <td class="price text-justify px-5">150zł</td>
+                          </tr>
+                          <tr>
+                              <td>Trening na siłowni bez Trenera</td>
+                              <td class="price text-justify px-5">30zł</td>
+                          </tr>
+                          <tr>
+                              <td>Indywidualny plan treningowy</td>
+                              <td class="price text-justify px-5">100zł</td>
+                          </tr>
+                          <tr>
+                              <th>PAKIETY MIESIĘCZNE</th>
+                              <th class="text-justify px-5">CENA</th>
+                          </tr>
+                          <tr>
+                              <td>Treningi personalne (8) 2 x w tygodniu *</td>
+                              <td class="price text-justify px-5">600zł</td>
+                          </tr>
+                          <tr>
+                              <td>Treningi personalne (12) 3 x w tygodniu*</td>
+                              <td class="price text-justify px-5">900zł</td>
+                          </tr>
+                          <tr>
+                              <td>Treningi personalne (16) 4 x w tygodniu*</td>
+                              <td class="price text-justify px-5">1100zł</td>
+                          </tr>
+                          <tr>
+                              <td>Treningi personalne (8) dla 2 osób 2 x w tygodniu*</td>
+                              <td class="price text-justify px-5">1000zł</td>
+                          </tr>
+                          <tr>
+                              <td>Treningi personalne (12) dla 2 osób 3 x w tygodniu*</td>
+                              <td class="price text-justify px-5">1500zł</td>
+                          </tr>
+                          <tr>
+                              <td>Treningi personalne (16) dla 2 osób 4 x w tygodniu*</td>
+                              <td class="price text-justify px-5">1800zł</td>
+                          </tr>
+                          <tr>
+                              <td>Indywidualny plan dietetyczny*</td>
+                              <td class="price text-justify px-5"> 200zł</td>
+                             
+                          </tr>
+                      </table>
+                      <p class="star text-center">*Pakiety obejmują prowadzenie miesięczne (4 tygodnie)</p>
+                      <ul class="options text-left">
+                        <li>Nie pobieramy dodatkowej opłaty za wejście na siłownię</li>
+                        <li>W cenie miesięcznych treningów personalnych zawiera się koszt przygotowania indywidualnego planu treningowego</li>
+                        <li>W trakcie treningów możliwe są porady dietetyczne</li>
+                        <li>Ceny treningów częstszych lub dla więcej niż 2 osób ustalane są indywidualnie</li>
+                      </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
 
           </section>
 

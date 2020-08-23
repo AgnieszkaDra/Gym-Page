@@ -67,6 +67,13 @@ p.btn{
     color:#e0610a;
     font-weight: bold;
     font-size: 1.8rem;
+
+}
+
+p.btn:hover{
+    color: #e0610a;
+    opacity: 0.7;
+    
 }
 div#collapseTwo ul li{
     list-style-type: none;
@@ -75,6 +82,9 @@ div#headingTwo, div#headingFour{
     background-color: #1d1d1b;
 }
 
+button.btn-outline-dark {
+    font-size: 1.4rem;
+}
 /* Offer */
 table.pricelist{
     position: relative;
@@ -128,4 +138,14 @@ img.coaches{
     width: 30%;
     height: 30%;
     border-radius: 10%;
+}
+
+
+
+/* Contact */
+section#contact hr{
+    background-color: #e0610a;
+}
+section#contact i{
+    color: #e0610a;
 }

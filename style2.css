@@ -12,6 +12,7 @@ html {
 }
 
 body {
+    position: relative;
     font-size: 1.6rem;
     background-color: #1d1d1b;
 }
@@ -20,22 +21,34 @@ body {
 
 /* NAVBAR */
 
- a.navbar-brand{
+nav {
+    background-color: #1d1d1b;;
+}
+a.navbar-brand {
     color: #e0610a;
     font-size: 1.8rem;
     font-weight: bold;
 }
 a.nav-link {
-    color: #1d1d1b;
+    color: #f8f9fa;
 }
 
 button i.fa-bars{
     font-size: 2rem;
     color: #1d1d1b;
     padding: 1rem 2rem;
-
 }
 
+a.nav-link:hover{
+    color:#e0610a;
+}
+
+.scroll-fix::before{
+    display: block;
+    margin-top: -3rem;
+    height: 3rem;
+    content:'';
+}
 
 /* Section about us */
 .about-box h3{
@@ -85,6 +98,7 @@ div#headingTwo, div#headingFour{
 button.btn-outline-dark {
     font-size: 1.4rem;
 }
+
 /* Offer */
 table.pricelist{
     position: relative;

@@ -13,7 +13,7 @@
 <body>
 
     
-        <nav class="navbar navbar-expand-lg bg-transparent py-2">
+        <nav class="navbar navbar-expand-lg py-2 fixed-top">
           <div class="container">
             <a class="navbar-brand text-uppercase" href="#"><img src="images/logo_kontra_7.png" width="30" height="30" class="d-inline-block align-top mr-3" alt="" loading="lazy">Przystań GYM</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +22,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link text-light text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link " href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3 text-light" href="#">O nas</a>
+                  <a class="nav-link px-3 " href="#aboutus">O nas</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link px-3" href="#">Treningi</a>
@@ -37,17 +37,17 @@
                     <a class="nav-link px-3" href="#">Galeria</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link px-3 text-light" href="#">Dokumenty</a>
+                    <a class="nav-link px-3" href="#document">Dokumenty</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3 text-light" href="#">Kontakt</a>
+                    <a class="nav-link px-3" href="#contact">Kontakt</a>
                   </li>
               </ul>
             </div>
             </div>
           </nav>
 
-          <header class="container px-0">
+          <header id="home" class="container px-0 mt-5 scroll-fix">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -105,7 +105,7 @@
         </header>
 
         <main>
-          <section id="aboutus">
+          <section id="aboutus" class="scroll-fix">
             <div class="container py-3">
               <div class="row">
                 <div class="col-12 col-md-6 col-lg-3 text-dark">
@@ -127,7 +127,7 @@
                     <h3>Galeria</h3>
                     <p><i class="fas fa-camera-retro"></i></p>
                     <p class="about-box-info">Kameralne studio treningowe</p>
-                    <button type="button" class="btn btn-outline-dark py-0 px-5">Zobacz</button>
+                    <button type="button" class="btn btn-outline-dark py-0 px-5" disabled data-container="body" title="W budowie" data-toggle="popover" data-placement="bottom" data-content="">Zobacz</button>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3  text-light">
@@ -177,7 +177,7 @@
                         <p class="text-justify"><strong>Wszystko zaczyna się od pomysłu.</strong> Chce zacząć ćwiczyć na siłowni!! Może na ten szalony koncept naprowadziła mnie motywacja wewnętrzna (oby), może kolega lub koleżanka, a może po prostu moda na bycie fit i przeglądanie portali społecznościowych.
                         <br>
                         <br>
-                        <strong>Tylko co dalej?</strong> Kupie karnet na jedną z lokalnych siłowni, ale co ja tam będę robić?. Mnóstwo ludzi jeszcze więcej dziwnego sprzętu wyglądającego jak maszyny tortur. To chyba jednak nie dla mnie.....<br>Każdy początkujący zmaga się z takimi problemami. Jedni rezygnują po jednej wizycie, inni marnują miesiące na błądzeniu w metodach i środkach treningowych, kolejni kończą godzinami wykonując trening cardio na bieżniach czy rowerkach stacjonarnych. Jest też grupa zapaleńców, którzy całymi dniami wertują internet aby dowiedzieć się jak ćwiczyć. Jednak poświęcają na to więcej czasu niż na trening.<br>
+                        <strong>Tylko co dalej?</strong> Kupię karnet na jedną z lokalnych siłowni, ale co ja tam będę robić?. Mnóstwo ludzi jeszcze więcej dziwnego sprzętu wyglądającego jak maszyny tortur. To chyba jednak nie dla mnie.....<br>Każdy początkujący zmaga się z takimi problemami. Jedni rezygnują po jednej wizycie, inni marnują miesiące na błądzeniu w metodach i środkach treningowych, kolejni kończą godzinami wykonując trening cardio na bieżniach czy rowerkach stacjonarnych. Jest też grupa zapaleńców, którzy całymi dniami wertują internet aby dowiedzieć się jak ćwiczyć. Jednak poświęcają na to więcej czasu niż na trening.<br>
                         Niestety czasem taki źle dobrany trening kończy się dużą opóźnioną bolesnością mięśniową (DOMS) czy nawet kontuzją. Stracony czas, ból czy nawet konieczność rehabilitacji nie są dobrymi motywatorami do kontynuowania treningu. I tu wracamy do początku i do stwierdzenia „to jednak nie dla mnie”. Trening na siłowni pewnie jest zarezerwowany tylko dla młodych, sprawnych, szczupłych ale umięśnionych ludzi. Właśnie NIE. Oni się tacy nie urodzili. Każda osoba w każdym wieku może zacząć swoją przygodę z treningiem siłowy, który jest najlepszą formą aktywności do budowania zdrowej sylwetki.
                         <strong>Żeby nie popełnić błędów </strong> opisanych powyżej i nie zniechęcić się na starcie najlepszą opcją rozpoczęcia swojej przygody z treningiem siłowym jest podjęcie współpracy z trenerem personalnym. <strong>Jakie korzyści możemy z tego uzyskać:</strong></p>
                         <ul>
@@ -212,7 +212,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div id="document" class="card scroll-fix">
                     <div class="card-header" id="headingFour">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -336,6 +336,10 @@
           </section>
 
         </main>
+
+        <footer class="bg-transparent text-light border-top">
+          <p class="text-center py-1">&copy 2020 Krzysztof Swół Copyright</p>
+        </footer>
 
 
 

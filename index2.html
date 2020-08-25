@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="style2.css">
     <title>Przystań Gym</title>
 </head>
-<body data-spy="scroll" data-target="#navbar-example">
 
-    
+<body data-spy="scroll" data-target="#navbar-example">
         <nav id="navbar-example" class="navbar navbar-expand-lg py-2 fixed-top">
           <div class="container">
             <a class="navbar-brand text-uppercase" href="#"><img src="images/logo_kontra_7.png" width="30" height="30" class="d-inline-block align-top mr-3" alt="" loading="lazy">Przystań GYM</a>
@@ -28,15 +27,9 @@
                 <li class="nav-item">
                   <a class="nav-link px-3 " href="#aboutus">O nas</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link px-3" href="#">Treningi</a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="#">Oferta</a>
+                  <a class="nav-link px-3" href="#offer">Oferta</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="#">Galeria</a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link px-3" href="#document">Dokumenty</a>
                 </li>
@@ -51,7 +44,7 @@
             </div>
           </nav>
 
-          <header id="home" class="container px-0 mt-5 scroll-fix">
+          <header id="home" class="container mt-5 px-0 scroll-fix">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -64,36 +57,26 @@
               <div class="carousel-item active">
                 <img src="images/baner1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <!-- <h5>Przystań Gym</h5>
-                  <p>"kameralne miejsce"</p> -->
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/baner2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <!-- <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/baner3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <!-- <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/baner4.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <!-- <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/baner5.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <!-- <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
                 </div>
               </div>
             </div>
@@ -109,20 +92,20 @@
         </header>
 
         <main>
-          <section id="aboutus" class="scroll-fix">
+          <section>
             <div class="container py-3">
               <div class="row">
                 <div class="col-12 col-md-6 col-lg-3 text-dark">
                   <div class="about-box text-center h-lg-100 m-3 p-5 p-lg-5 border bg-light">
-                    <h3>Treningi</h3>
+                    <h3>Zajęcia</h3>
                     <p><i class="fas fa-dumbbell"></i></p>
-                    <p class="about-box-info">Treningi personalne, konsultacje online, plany treningowe</p>
+                    <p class="about-box-info">Tylko treningi personalne, komfort zajęć i bezpieczeństwo</p>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 text-light">
                   <div class="about-box text-center h-lg-100 m-3 p-5 p-lg-5 border">
-                    <h3>Oferta</h3>
-                    <p><i class="fas fa-handshake"></i></p>
+                    <h3>Jakość</h3>
+                    <p><i class="fas fa-check"></i></p>
                     <p class="about-box-info">Kompleksowe i indywidualne podejście do klienta </p>
                 </div>
                 </div>
@@ -134,49 +117,87 @@
                     <button type="button" class="btn btn-outline-dark py-0 px-5" disabled data-container="body" title="W budowie" data-toggle="popover" data-placement="bottom" data-content="">W budowie</button>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3  text-light">
+                <div id="aboutus" class="col-12 col-md-6 col-lg-3 scroll-fix  text-light">
                   <div class="about-box text-center h-lg-100 m-3 p-5 p-lg-5 border">
                     <h3>Trenerzy</h3>
                     <p><i class="fas fa-users"></i></p>
-                    <p class="about-box-info">Profesjonalna i doświadczona kadra trenerska</p>
+                    <p class="about-box-info">Wykwalifikowana i doświadczona kadra trenerska</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="container py-5 text-center">
-                <p class="display-4">Dlaczego warto?</p>
+            <div  class="container py-5 text-center">
+                <p class="display-4">Studio treningu personalnego</p>
                 <hr class="bg-warning w-80 mx-auto my-3">
                 <div class="accordion" id="accordionExample">
                   <div class="card">
                     <div class="card-header" id="headingOne">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-center text-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                          <p class="btn">Dlaczego warto nam zaufać?</p>
+                          <p class="btn">Przystań Gym</p>
                         </button>
                       </h2>
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                       <div class="card-body">
                         <p class="text-left"><strong>Przystań Gym</strong> to kompleksowe podejście do klienta. Oferujemy pojedyncze <strong>treningi personalne</strong>, prowadzenie miesięczne pod względem treningowym z wybraną przez podopiecznego częstotliwością oraz ustalonym celem. Przygotowujemy <strong>plany treningowe oraz wspieramy dietetycznie</strong>. Prowadzimy także klientów <strong>on-line</strong>. W naszym zespole znajduje się również dietetyk oraz fizjoterapeuta.</p>
-                        <br>
-                        <br>
-                        <p class="text-left">PROWADZENIE ON-LINE</p>
-                          <p class="text-left">WYWIAD + PLAN TRENINGOWY ORAZ DIETETYCZNY + KONSULTACJE ONLINE</p>
-                          <p class="text-left">Współpraca opiera się o szczegółowy wywiad z klientem co do celów i możliwości. Następnie wdrażany jest plan dietetyczny i treningowy. Trenujący otrzymuję wszystkie niezbędne narzędzia, druki i formularze. Raz w tygodniu klient wysyła zbiorczą wiadomość dotyczącą postępów oraz pytań. Co tygodniowe konsultacje obejmują również analizę video techniki wykonywania ćwiczeń.</p>
-                      
                       </div>
                     </div>
                   </div>
-                  <div class="card">
+                  <div id="offer" class="card scroll-fix">
                     <div class="card-header" id="headingTwo">
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <p class="btn">Czym jest trening personalny?</p>
+                          <p class="btn">Trenerzy</p>
                         </button>
                       </h2>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <img src="images/coach1.jpg" class="rounded float-left coaches pr-3" alt="...">
+                        <p class="text-justify"><strong>Paweł Miklasiński</strong> – założyciel oraz główny trener w Przystań Gym. Absolwent Uniwersytetu Pedagogicznego w Krakowie, mgr wychowania fizycznego i obronnego. Od najmłodszych lat związany ze sportem jako zawodnik oraz trener grup młodzieżowych. Kwalifikowany trener personalny i instruktor sportów siłowych od 2012 roku. Uczestnik wielu konferencji i szkoleń odnośnie dietetyki, treningu oraz przygotowania motorycznego. Między innymi: Szkoła Treningowa Mistrza Furmanka – mięśnie grzbietu i barków, Wyższa Szkoła Tenerska – suplementacja i dietetyka w sporcie, Centrum Szkoleń Sportowych – programowanie treningowe, A4cademy – dietetyka i dietoterapia. Główne założenie swojej pracy to zarażać pasją do aktywności fizycznej, która powinna towarzyszyć człowiekowi przez całe życie.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div  class="card">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <p class="btn">Dlaczego warto trenować w Przystań Gym?</p>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <p class="text-uppercase font-weight-bold">Co nas wyróżnia?</p>
+                        <ul>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>tylko treningi personalne, brak innych osób w obiekcie co zapewnia komfort zajęć,</li>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>atrakcyjne pakiety cenowe,</li>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>cisza, spokój z dala od miejskiego zgiełku,</li>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>kameralne miejsce, blisko natury tuż nad Wisłą,</li>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>dogodna lokalizacja dla każdego mieszkańca Krakowa (nieopodal zjazd z obwodnicy S7),</li>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>dojazd bez korków i problemów z parkowaniem.</li>
+                        </ul>
+                        <br>
+                        <p class="text-uppercase font-weight-bold">Co oferujemy?</p>
+                        <ul>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>wykwalifikowana i doświadczona kadra trenerska,</li>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>profesjonalny sprzęt treningowy,</li>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>treningi dostosowane do wieku oraz poziomu sprawności,</li>
+                        <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>zajęcia kształtujące sylwetkę oraz rozwijające zdolności motoryczne.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  <div id="offer" class="card scroll-fix">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                          <p class="btn">Treningi personalne</p>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                       <div class="card-body">
                         <p class="text-justify"><strong>Wszystko zaczyna się od pomysłu.</strong> Chce zacząć ćwiczyć na siłowni!! Może na ten szalony koncept naprowadziła mnie motywacja wewnętrzna (oby), może kolega lub koleżanka, a może po prostu moda na bycie fit i przeglądanie portali społecznościowych.
                         <br>
@@ -185,7 +206,7 @@
                         Niestety czasem taki źle dobrany trening kończy się dużą opóźnioną bolesnością mięśniową (DOMS) czy nawet kontuzją. Stracony czas, ból czy nawet konieczność rehabilitacji nie są dobrymi motywatorami do kontynuowania treningu. I tu wracamy do początku i do stwierdzenia „to jednak nie dla mnie”. Trening na siłowni pewnie jest zarezerwowany tylko dla młodych, sprawnych, szczupłych ale umięśnionych ludzi. Właśnie NIE. Oni się tacy nie urodzili. Każda osoba w każdym wieku może zacząć swoją przygodę z treningiem siłowy, który jest najlepszą formą aktywności do budowania zdrowej sylwetki.
                         <strong>Żeby nie popełnić błędów </strong> opisanych powyżej i nie zniechęcić się na starcie najlepszą opcją rozpoczęcia swojej przygody z treningiem siłowym jest podjęcie współpracy z trenerem personalnym. <strong>Jakie korzyści możemy z tego uzyskać:</strong></p>
                         <ul>
-                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>diagnostyka układu ruchu, </li>
+                          <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i></i>diagnostyka układu ruchu, </li>
                           <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>praca nad ewentualnymi wadami postawy co pomoże uniknąć kontuzji,	</li>
                           <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>indywidualny plan treningowy dostosowany do naszych celów i możliwości,</li>
                           <li class="text-justify ml-5"><i class="fas fa-check mr-3"></i>analityczna nauka ćwiczeń aż do wyrobienia nawyku ruchowego,</li>
@@ -202,29 +223,29 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" id="headingThree">
+                    <div class="card-header" id="headingFive">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          <p class="btn">Trenerzy</p>
+                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <p class="btn">Prowadzenie ONLINE</p>
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                       <div class="card-body">
-                        <img src="images/coach1.jpg" class="rounded float-left coaches pr-3" alt="...">
-                        <p class="text-justify"><strong>Paweł Miklasiński</strong> – założyciel oraz główny trener w Przystań Gym. Absolwent Uniwersytetu Pedagogicznego w Krakowie, mgr wychowania fizycznego i obronnego. Od najmłodszych lat związany ze sportem jako zawodnik oraz trener grup młodzieżowych. Kwalifikowany trener personalny i instruktor sportów siłowych od 2012 roku. Uczestnik wielu konferencji i szkoleń odnośnie dietetyki, treningu oraz przygotowania motorycznego. Między innymi: Szkoła Treningowa Mistrza Furmanka – mięśnie grzbietu i barków, Wyższa Szkoła Tenerska – suplementacja i dietetyka w sporcie, Centrum Szkoleń Sportowych – programowanie treningowe, A4cademy – dietetyka i dietoterapia. Główne założenie swojej pracy to zarażać pasją do aktywności fizycznej, która powinna towarzyszyć człowiekowi przez całe życie.</p>
+                          <p class="text-center"><strong>WYWIAD + PLAN TRENINGOWY ORAZ DIETETYCZNY + KONSULTACJE ONLINE</strong></p>
+                          <p class="text-left">Współpraca opiera się o szczegółowy wywiad z klientem co do celów i możliwości. Następnie wdrażany jest plan dietetyczny i treningowy. Trenujący otrzymuję wszystkie niezbędne narzędzia, druki i formularze. Raz w tygodniu klient wysyła zbiorczą wiadomość dotyczącą postępów oraz pytań. Co tygodniowe konsultacje obejmują również analizę video techniki wykonywania ćwiczeń.</p>
                       </div>
                     </div>
                   </div>
-                  <div id="document" class="card scroll-fix">
-                    <div class="card-header" id="headingFour">
+                  <div class="card">
+                    <div class="card-header" id="headingSix">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                           <p class="btn">Cennik</p>
                         </button>
                       </h2>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                       <div class="card-body">
                         <table class="pricelist">
                           <tr>
@@ -292,14 +313,46 @@
                       </div>
                     </div>
                     <div class="card">
-                      <div class="card-header" id="headingFive">
+                      <div class="card-header" id="headingSeven">
                         <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <p class="btn">Vouchery i prezenty</p>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <p class="text-justify">Szukasz prezentu dla bliskiej Ci osoby? Chcesz zadbać o jej zdrowie, dobre samopoczucie oraz sylwetkę? Zapraszamy do zakupu voucherów prezentowych na dowolną ilość treningów personalnych. </p> 
+                          <br> 
+                          <p class="text-left"></i>Zapraszamy do kontaktu <strong><i class="far fa-smile"></i></strong></p>
+                          <br>
+                          <img src="images/VOUCHER voucher (1).png" class="rounded coaches pr-3" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                    <div id="document" class="card scroll-fix">
+                      <div class="card-header" id="headingEight">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-center text-dark" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <p class="btn">Współpraca z dietetykiem i fizjoterapeutą</p>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <p class="text-left">Szczegóły wkrótce <i class="fas fa-hourglass-half"></i></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div  class="card">
+                      <div class="card-header" id="headingNine">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-center text-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             <p class="btn">Dokumenty</p>
                           </button>
                         </h2>
                       </div>
-                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                      <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                         <div class="card-body">
                           <a class="docs text-justify" href="doc/Umowa.pdf" target="_blank">Umowa - treningi personalne</a>
                           <br>
@@ -323,7 +376,7 @@
                 <div class="contact-info col-12 col-lg-6 pb-4">
                   <h3>Adres:</h3>
                   <hr class="w-lg-25">
-                  <p>PM Practice</p>
+                  <p>Przystań Gym</p>
                   <p>Klasztorna</p>
                   <p>31-979 Kraków</p>
                   <hr class="w-lg-25">
@@ -334,7 +387,7 @@
                 </div>
 
                 <div class="map col-12 col-lg-6 text-center">
-                  <iframe class="container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.9274023845055!2d20.05642787218428!3d50.051393199622716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47164452054af3ff%3A0x9995ef687cb9aeb7!2sYacht%20Klub%20Sekcja%20Kajakowa!5e1!3m2!1spl!2spl!4v1598207863975!5m2!1spl!2spl" width="400" height="250" frameborder="1" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d783.0707200308267!2d20.0579884292637!3d50.05131995983882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47164594d331883d%3A0xb5d3f5655c2083b0!2sPrzysta%C5%84%20Gym%20Studio%20Treningu%20Personalnego!5e1!3m2!1spl!2spl!4v1598366164022!5m2!1spl!2spl" width="400" height="250" frameborder="1" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
 
               </div>

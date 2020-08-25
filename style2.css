@@ -93,10 +93,10 @@ p.btn:hover{
     opacity: 0.7;
     
 }
-div#collapseTwo ul li{
+div#collapseFour ul li, div#collapseThree ul li{
     list-style-type: none;
 }
-div#headingTwo, div#headingFour{
+div#headingTwo, div#headingFour, div#headingSix, div#headingEight{
     background-color: #1d1d1b;
 }
 

@@ -96,7 +96,17 @@ p.btn:hover{
 div#collapseFour ul li, div#collapseThree ul li{
     list-style-type: none;
 }
-div#headingTwo, div#headingFour, div#headingSix, div#headingEight{
+
+div#headingTwo{
+    background-color: #1d1d1b;
+}
+div#headingFour{
+    background-color: #1d1d1b;
+}
+div#headingSix{
+    background-color: #1d1d1b;
+}
+div#headingEight{
     background-color: #1d1d1b;
 }
 

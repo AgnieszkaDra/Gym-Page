@@ -30,7 +30,7 @@ a.navbar-brand {
     font-weight: bold;
 }
 a.nav-link {
-    color: #f8f9fa;
+    color: #F8f9fa;
 }
 
 button i.fa-bars{
@@ -39,9 +39,14 @@ button i.fa-bars{
     padding: 1rem 2rem;
 }
 
+i.fa-facebook-square{
+    font-size: 2rem;
+}
+
 a.nav-link:hover{
     color:#e0610a;
 }
+
 
 .scroll-fix::before{
     display: block;
@@ -97,6 +102,10 @@ div#headingTwo, div#headingFour{
 
 button.btn-outline-dark {
     font-size: 1.4rem;
+}
+
+a.docs {
+    text-decoration: none;
 }
 
 /* Offer */
@@ -162,4 +171,9 @@ section#contact hr{
 }
 section#contact i{
     color: #e0610a;
+}
+
+/* Footer */
+footer p{
+    font-size: 1.2rem;
 }

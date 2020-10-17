@@ -1,140 +1,203 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;}
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 body {
-    position: relative;
-    font-size: 1.6rem;
-    background-color: #1d1d1b;}
+  position: relative;
+  font-size: 1.6rem;
+  background-color: #1d1d1b;
+}
 /* NAVBAR=================================================================== */
 nav {
-    background-color: #1d1d1b;;}
+  background-color: #1d1d1b;
+}
 a.navbar-brand {
-    color: #e0610a;
-    font-size: 1.8rem;
-    font-weight: bold;}
+  color: #ffa500;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
 a.nav-link {
-    color: #F8f9fa;}
-button i.fa-bars{
-    font-size: 2rem;
-    color: #1d1d1b;
-    padding: 1rem 2rem;}
-i.fa-facebook-square{
-    font-size: 2rem;}
-a.nav-link:hover{
-    color:#e0610a;}
-.scroll-fix::before{
-    display: block;
-    margin-top: -4rem;
-    height: 4rem;
-    content:'';}
+  color: #ffa500;
+}
+button i.fa-bars {
+  font-size: 2rem;
+  color: #1d1d1b;
+  padding: 1rem 2rem;
+}
+i.fa-facebook-square {
+  font-size: 2rem;
+}
+a.nav-link:hover {
+  color: #e0610a;
+}
+.scroll-fix::before {
+  display: block;
+  margin-top: -4rem;
+  height: 4rem;
+  content: "";
+}
 /* Section about us ================================================*/
-main section h1{color: #E0610A;}
-.about-box h3{
-    font-size: 2rem;
-    font-weight: bold;}
+main section h1 {
+  color: #e0610a;
+}
+.about-box h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
 .about-box p i {
-    color: #e0610a;}
-p.about-box-info{
-    font-size: 1.4rem}
-p.display-4{
-    color: #e0610a;}
-i.fa-check{
-    color: #e0610a;
-    font-weight: bold;}
-div.card-body p{
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-    margin-left: 2rem;}
-p.btn{
-    color:#e0610a;
-    font-weight: bold;
-    font-size: 1.8rem;}
-p.btn:hover{
-    color: #e0610a;
-    opacity: 0.7;}
+  color: #e0610a;
+}
+p.about-box-info {
+  font-size: 1.4rem;
+}
+p.display-4 {
+  color: #e0610a;
+}
+i.fa-check {
+  color: #e0610a;
+  font-weight: bold;
+}
+div.card-body p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-left: 2rem;
+}
+p.btn {
+  color: #e0610a;
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+}
+p.btn:hover {
+  color: #ffa500;
+  opacity: 1;
+}
+hr.lines {
+  background-color: #ffa500;
+}
 /* button.btn:focus{
     outline: none;
     color: #f39200;
 } */
 /* Modal=================================================== */
-button.btn-close{
-    background-color: #e0610a;}
-button.btn-close{
-    color: #F8f9fa;}
-div.modal-header{background-color: #1d1d1b;}
-div.modal-header h5 {color: #f8f9fa;}
-div.modal-header span {font-size: 2.5rem;}
-div.modal-footer{background-color: #1d1d1b;}
+button.btn-close {
+  background-color: #e0610a;
+}
+button.btn-close {
+  color: #f8f9fa;
+}
+div.modal-header {
+  background-color: #1d1d1b;
+}
+div.modal-header h5 {
+  color: #f8f9fa;
+}
+div.modal-header span {
+  font-size: 2.5rem;
+}
+div.modal-footer {
+  background-color: #1d1d1b;
+}
 
-div#collapseFour ul li, div#collapseThree ul li{
-    list-style-type: none;}
-div#headingTwo{
-    background-color: #1d1d1b;}
-div#headingFour{
-    background-color: #1d1d1b;}
-div#headingSix{
-    background-color: #1d1d1b;}
-div#headingNine{
-    background-color: #1d1d1b;}
-div#headingEleven{
-    background-color: #1d1d1b;}
-div#headingThirteen{
-    background-color: #1d1d1b;}
-div#headingFifteen{
-    background-color: #1d1d1b;}
+div#collapseFour ul li,
+div#collapseThree ul li {
+  list-style-type: none;
+}
+div#headingTwo {
+  background-color: #1d1d1b;
+}
+div#headingFour {
+  background-color: #1d1d1b;
+}
+div#headingSix {
+  background-color: #1d1d1b;
+}
+div#headingNine {
+  background-color: #1d1d1b;
+}
+div#headingEleven {
+  background-color: #1d1d1b;
+}
+div#headingThirteen {
+  background-color: #1d1d1b;
+}
+div#headingFifteen {
+  background-color: #1d1d1b;
+}
 button.btn-outline-dark {
-    font-size: 1.4rem;}
+  font-size: 1.4rem;
+}
 a.docs {
-    text-decoration: none;}
+  text-decoration: none;
+}
+
+/* js implementation */
+div.inactive {
+  display: none; 
+}
+
 /* Offer========================================================== */
-table.pricelist{
-    position: relative;
-    left: 50%;
-    margin-top: 5rem;
-    transform: translateX(-50%);
-    width: 80%;}
-table.pricelist th{
-    background-color: #E0610A;
-    padding: 10px 0;}
-table.pricelist td{
-    background-color: #f39200;
-    padding: 7px 10px 10px 10px;
-    font-weight: bold;}
+table.pricelist {
+  position: relative;
+  left: 50%;
+  margin-top: 5rem;
+  transform: translateX(-50%);
+  width: 80%;
+}
+table.pricelist th {
+  background-color: #e0610a;
+  padding: 10px 0;
+}
+table.pricelist td {
+  background-color: #f39200;
+  padding: 7px 10px 10px 10px;
+  font-weight: bold;
+}
 td.price {
-    text-align: end;}
+  text-align: end;
+}
 table.pricelist td:hover {
-    background-color: #f3aa00;}
+  background-color: #f3aa00;
+}
 p.star.text-center {
-    color: #1d1d1b;
-    font-size: 1.4rem;  }
+  color: #1d1d1b;
+  font-size: 1.4rem;
+}
 ul.options {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    display: flex;
-    flex-direction: column;}
-ul.options li{
-    list-style-type: disc;
-    color: #1d1d1b;
-    line-height: 2rem;
-    font-size: 1.4rem;
-    font-weight: bold;}
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+ul.options li {
+  list-style-type: disc;
+  color: #1d1d1b;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
 /* Coaches============================================================== */
-img.coaches{
-    width: 30%;
-    height: 30%;
-    border-radius: 10%;}
+img.coaches {
+  width: 30%;
+  height: 30%;
+  border-radius: 10%;
+}
 /* Contact ======================================================================*/
-section#contact hr{
-    background-color: #e0610a;}
-section#contact i{
-    color: #e0610a;}
+section#contact hr {
+  background-color: #e0610a;
+}
+section#contact i {
+  color: #e0610a;
+}
 /* Footer=================================================================== */
-footer p{
-    font-size: 1.2rem;}
+footer p {
+  font-size: 1.2rem;
+}

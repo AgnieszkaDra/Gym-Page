@@ -107,6 +107,7 @@ div.modal-footer {
   background-color: #1d1d1b;
 }
 
+
 div#collapseFour ul li,
 div#collapseThree ul li {
   list-style-type: none;
@@ -198,6 +199,10 @@ section#contact hr {
 }
 section#contact i {
   color: #e0610a;
+}
+iframe{
+  border: 0.3rem solid #e0610a;
+  border-radius: 2%;
 }
 /* Footer=================================================================== */
 footer p {

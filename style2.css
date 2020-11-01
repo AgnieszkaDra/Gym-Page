@@ -31,7 +31,10 @@ button i.fa-bars {
   padding: 1rem 2rem;
 }
 i.fa-facebook-square {
-  font-size: 2rem;
+  font-size: 2.2rem;
+}
+i.fa-instagram {
+  font-size: 2.3rem;
 }
 a.nav-link:hover {
   color: #e0610a;

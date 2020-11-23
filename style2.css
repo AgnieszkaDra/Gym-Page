@@ -183,12 +183,22 @@ ul.options {
   display: flex;
   flex-direction: column;
 }
+
+  
+
 ul.options li {
   list-style-type: disc;
   color: #1d1d1b;
   line-height: 2rem;
   font-size: 1.4rem;
   font-weight: bold;
+}
+ul.diet li {
+  list-style-type: none;
+  color: #1d1d1b;
+  line-height: 3rem;
+  font-size: 1.5rem;
+
 }
 /* Coaches============================================================== */
 img.coaches {

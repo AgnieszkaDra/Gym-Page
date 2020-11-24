@@ -121,16 +121,20 @@ div#headingTwo {
 div#headingFour {
   background-color: #1d1d1b;
 }
-div#headingSix {
+div#headingSixteen {
   background-color: #1d1d1b;
 }
-div#headingNine {
+div#headingSeven {
   background-color: #1d1d1b;
 }
-div#headingEleven {
+
+div#headingTen {
   background-color: #1d1d1b;
 }
-div#headingThirteen {
+div#headingTwelve {
+  background-color: #1d1d1b;
+}
+div#headingFourteen {
   background-color: #1d1d1b;
 }
 div#headingFifteen {
@@ -184,7 +188,17 @@ ul.options {
   flex-direction: column;
 }
 
-  
+ul.pass{
+  list-style-type: none;
+}
+.pass li i.fa-hand-point-right{
+  color: #f39200;
+}
+.pass p.pass_text{
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  font-weight: bold;
+}
 
 ul.options li {
   list-style-type: disc;

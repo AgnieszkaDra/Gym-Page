@@ -11,11 +11,13 @@ html {
 body {
   position: relative;
   font-size: 1.6rem;
-  background-color: #1d1d1b;
+  /* background-color: #1d1d1b; */
+  background-image: linear-gradient(to right, rgba(29, 29, 27, 0.7), rgba(29, 29, 27, 1))
 }
 /* NAVBAR=================================================================== */
 nav {
-  background-color: #1d1d1b;
+  /* background-color: #1d1d1b; */
+  background-image: linear-gradient(to right, rgba(29, 29, 27, 0.7), rgba(29, 29, 27, 1))
 }
 a.navbar-brand {
   color: #ffa500;

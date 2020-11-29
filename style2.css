@@ -70,6 +70,7 @@ i.fa-check {
   color: #e0610a;
   font-weight: bold;
 }
+
 div.card-body p {
   font-size: 1.6rem;
   line-height: 2.5rem;
@@ -155,6 +156,15 @@ a.docs {
 div.inactive {
   display: none; 
 }
+.eqp {
+  margin-left: 30%;
+  text-align: left;
+
+}
+.equipment {
+  list-style: none;
+  
+}
 
 /* Offer========================================================== */
 table.pricelist {
@@ -195,13 +205,12 @@ ul.options {
 ul.pass{
   list-style-type: none;
 }
-.pass li i.fa-hand-point-right{
-  color: #f39200;
-}
+
 .pass p.pass_text{
   font-size: 1.4rem;
   line-height: 1.2rem;
   font-weight: bold;
+  margin-left: 4%;
 }
 
 ul.options li {
@@ -238,4 +247,12 @@ iframe{
 /* Footer=================================================================== */
 footer p {
   font-size: 1.2rem;
+}
+
+
+/* Media */
+@media (max-width: 575px) {
+  div.eqp{
+    margin-left: 10%;
+  }
 }
